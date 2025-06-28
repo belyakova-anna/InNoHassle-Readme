@@ -14,56 +14,59 @@
 
 ## About
 
-There are several services in the InNoHassle ecosystem for Innopolis University students.
-You can access some of them through the InNoHassle website.
+**InNoHassle** is a digital ecosystem for students of Innopolis University, created by [one-zero-eight](https://github.com/one-zero-eight) community.
 
-The website uses the API of InNoHassle services: [Events](https://github.com/one-zero-eight/events), [Music Room](https://github.com/one-zero-eight/music-room), [Search](https://github.com/one-zero-eight/search).
+The website integrates with the service APIs, including:
+- [Music Room](https://github.com/one-zero-eight/music-room)
+- [Schedule](https://github.com/one-zero-eight/events)
+- [Room Booking](https://github.com/one-zero-eight/room-booking)
 
 ### Services
-- Dashboard
-  - Get a list of university and city services
-- Calendar
-  - Have your class schedule at hand at all times
-- Maps
+- 🗂️ **Dashboard**
+  - Access a centralized list of university and city services
+- 🗓️ **Calendar**
+  - Keep your class schedule available at all times
+- 🗺️ **Maps**
   - Find a classroom or professor's office
-  - Use the map to get to another location on the university or sports complex
-  - Share the meeting point with a friend
-- Room booking
-  - Use a university room for extracurricular activities or chill
-- 🗓️ Schedule
-  - Check all academic groups, electives, sports sections, cleaning schedules
-  - Export schedules to your favorite calendar app on your devices
-  - Add groups to favorites to see them in your personal account
-- 💰 Scholarship
+  - Navigate to other university or sport complex locations
+  - Share the meeting point with friends
+- 📌 **Room booking**
+  - Reserve university rooms for extracurricular activities or relaxation
+- 📋 **Schedule**
+  - View schedules for core courses, electives, sports sections, and cleaning
+  - Add academic groups to favorites to see them in your personal account
+  - Export schedules to your preferred calendar applications
+- 💰 **Scholarship**
   - Calculate your scholarship based on expected grades or GPA
-  - Get detailed information about the types of scholarships at the University
-- Printers
-  - Use a bot to print at university
-- Dorms
-  - Try the telegram bot to share household chores with roommates
-  - Use its reminders to stick to your schedule
-- 🎵 Music room
-  - See all bookings of the music room on a separate page
-  - View your own bookings in your personal account
-- Sports
-  - Check your separate sports calendar
-- Extension
-  - Speed ​​up your authorization in the university services by skipping the input of credentials
+  - Access detailed information on available university scholarships
+- 🖨️ **Printers**
+  - Use a bot to print documents on university printers
+- 🛏️ **Dorms**
+  - Use the Telegram bot to manage household tasks with roommates
+  - Set reminders to follow your daily routines
+- 🎵 **Music room**
+  - View all current music room bookings
+  - Make your own booking
+- ⚽ **Sports**
+  - Access a separate calendar for sports events and activities
+- 🚀 **Extension**
+  - Accelerate authentication across university services by skipping manual credential entry
 
 ### More features
 
-- 🔑 Sign in to your personal account using your student email
-- 📚 All relevant academic groups are on your personal dashboard
-- 📴 Offline access to the website in case of a bad internet connection
-- 🌙 Dark and 🌞 light theme of the interface
+- 🔑 Sign in to your personal account using your student email credentials
+
+- 📴 Use the website even with a poor or unstable internet connection
+
+- 🌞 Switch between dark and light mode for comfortable use
 
 ### Technologies
 
-- [Node.js](https://nodejs.org) & [TypeScript](https://www.typescriptlang.org/)
-- [React](https://react.dev/) & [Vite](https://vitejs.dev/) & [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview)
-- [Vue](https://vuejs.org/) & [Veaury](https://github.com/gloriasoft/veaury)
+- Core: [Node.js](https://nodejs.org), [TypeScript](https://www.typescriptlang.org/)
+- Frontend: [React](https://react.dev/), [Vite](https://vitejs.dev/), [TanStack Router](https://tanstack.com/router/latest/docs/framework/react/overview)
+- Vue integration: [Vue](https://vuejs.org/), [Veaury](https://github.com/gloriasoft/veaury)
 - Styling: [TailwindCSS](https://tailwindcss.com/), [Iconify](https://iconify.design/)
-- Formatting and linting: [Husky](https://typicode.github.io/husky/), [lint-staged](https://github.com/lint-staged/lint-staged), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/)
+- Code quality: [Husky](https://typicode.github.io/husky/), [lint-staged](https://github.com/lint-staged/lint-staged), [Prettier](https://prettier.io/), [ESLint](https://eslint.org/)
 - Data fetching: [OpenAPI Typescript](https://openapi-ts.dev/), [TanStack Query](https://tanstack.com/query/latest)
 - Calendar: [FullCalendar](https://fullcalendar.io/), [ical.js](https://github.com/kewisch/ical.js)
 
